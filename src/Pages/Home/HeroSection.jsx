@@ -19,5 +19,6 @@ export default function HeroSection() {
         <img src="./img/hero_img.png" alt="Hero Section" />
       </div>
     </section>
+    
   );
 }
