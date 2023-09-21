@@ -1,10 +1,13 @@
 import HeroSection from "../HeroSection";
 import MySkills from "../MySkills";
-export default function Home(){
-    return(
-        <>
-        <HeroSection/>
-        <MySkills/>
-        </>
-    )
+import AboutMe from "../AboutMe";
+
+export default function Home() {
+  return (
+    <>
+      <HeroSection />
+      <MySkills />
+      <AboutMe />
+    </>
+  );
 }

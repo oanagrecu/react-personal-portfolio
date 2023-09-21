@@ -24,5 +24,36 @@
             "title": "Full-Stack",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
           }
-    ]
+    ],
+
+    "portfolio": [
+        {
+          "id": "1",
+          "src": "./img/placeholder-image.png",
+          "title": "Weather App",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+          "link": "View In Github"
+        },
+        {
+          "id": "2",
+          "src": "./img/placeholder-image-1.png",
+          "title": "E-Commerce Website",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+          "link": "View In Github"
+        },
+        {
+          "id": "3",
+          "src": "./img/placeholder-image-2.png",
+          "title": "Dark-Kitchen",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+          "link": "View In Github"
+        },
+        {
+            "id": "4",
+            "src": "./img/placeholder-image-2.png",
+            "title": "Ash-Mademoiselle",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+            "link": "View In Github"
+          }
+      ]
 }
