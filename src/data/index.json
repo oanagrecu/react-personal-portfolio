@@ -29,31 +29,59 @@
     "portfolio": [
         {
           "id": "1",
-          "src": "./img/placeholder-image.png",
+          "src": "./img/image.png",
           "title": "Weather App",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
           "link": "View In Github"
         },
         {
           "id": "2",
-          "src": "./img/placeholder-image-1.png",
+          "src": "./img/image.png",
           "title": "E-Commerce Website",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
           "link": "View In Github"
         },
         {
           "id": "3",
-          "src": "./img/placeholder-image-2.png",
+          "src": "./img/image.png",
           "title": "Dark-Kitchen",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
           "link": "View In Github"
         },
         {
             "id": "4",
-            "src": "./img/placeholder-image-2.png",
+            "src": "./img/image.png",
             "title": "Ash-Mademoiselle",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
             "link": "View In Github"
-          }
+          },
+          {
+            "id": "5",
+            "src": "./img/image.png",
+            "title": "Shopping List",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+            "link": "View In Github"
+          },
+          {
+              "id": "6",
+              "src": "./img/image.png",
+              "title": "Book Store",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+              "link": "View In Github"
+            },
+            {
+              "id": "7",
+              "src": "./img/image.png",
+              "title": "Before Sunset-GuestHouse",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+              "link": "View In Github"
+            },
+            {
+                "id": "8",
+                "src": "./img/image.png",
+                "title": "Accesare Fonduri Europene",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+                "link": "View In Github"
+              }
       ]
 }
