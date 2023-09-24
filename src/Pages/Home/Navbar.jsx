@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
-
+import HeroSection from "./HeroSection";
 function Navbar() {
   const [navActive, setNavActive] = useState(false);
 
@@ -35,7 +35,9 @@ function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
-        <img src="./img/logo.png" alt="oana`s logo" />
+        <Link to="heroSection" className="logo-link">
+          <img src="./img/logo.png" alt="oana`s logo" />
+        </Link>
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
@@ -55,24 +57,10 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="heroSection"
+              to="MySkills"
               className="navbar--content"
             >
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="MyPortfolio"
-              className="navbar--content"
-            >
-              Portfolio
+              Services
             </Link>
           </li>
           <li>
@@ -97,10 +85,25 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="testimonial"
+              to="MyPortfolio"
               className="navbar--content"
             >
-              Testimonials
+              Portfolio
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="Resume"
+              className="navbar--content"
+            >
+              Resume
             </Link>
           </li>
         </ul>

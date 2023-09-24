@@ -32,56 +32,64 @@
           "src": "./img/weather-app.png",
           "title": "Weather App",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-          "link": "View In Github"
+          "link": "View In Github",
+          "githubUrl":"https://github.com/oanagrecu/weatherApp"
         },
         {
           "id": "2",
           "src": "./img/e-commerce.png ",
           "title": "E-Commerce Website",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-          "link": "View In Github"
+          "link": "View In Github",
+          "githubUrl":"https://github.com/oanagrecu/FinalProjectFE"
         },
         {
           "id": "3",
           "src": "./img/Dark-Kitchen-group Project.png",
           "title": "Dark-Kitchen",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-          "link": "View In Github"
+          "link": "View In Github",
+          "githubUrl":"https://fergalicious.netlify.app/"
         },
         {
             "id": "4",
             "src": "./img/full-Stack-Ash-Mademoiselle.png",
             "title": "Ash-Mademoiselle",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-            "link": "View In Github"
+            "link": "View In Github",
+            "githubUrl":"https://main--snazzy-sunburst-2dec79.netlify.app/"
           },
           {
             "id": "5",
             "src": "./img/shoppingList.png",
             "title": "Shopping List",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-            "link": "View In Github"
+            "link": "View In Github",
+            "githubUrl":"https://github.com/oanagrecu/FrontEndProject/tree/master/Homework9"
           },
           {
               "id": "6",
               "src": "./img/bookList.png",
               "title": "Book List",
               "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-              "link": "View In Github"
+              "link": "View In Github",
+              "githubUrl":"https://github.com/oanagrecu/FrontEndProject/tree/master/Homework10"
             },
             {
               "id": "7",
               "src": "./img/beforeSunset.png",
               "title": "Before Sunset-GuestHouse",
               "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-              "link": "View In Github"
+              "link": "View In Github",
+              "githubUrl":"https://github.com/oanagrecu/BeforeSunset-GuestHouse"
             },
             {
                 "id": "8",
                 "src": "./img/accesareF.png",
                 "title": "Accesare Fonduri Europene",
                 "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-                "link": "View In Github"
+                "link": "View Website",
+                "githubUrl":"https://www.accesarefondurieuropene.ro/"
               }
       ]
 }

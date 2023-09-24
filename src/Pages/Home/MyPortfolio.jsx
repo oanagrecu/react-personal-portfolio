@@ -10,9 +10,14 @@ export default function MyPortfolio() {
           <h2 className="section--heading">My Portfolio</h2>
         </div>
         <div>
-          <button className="btn btn-github">
+          <a
+            href="https://github.com/oanagrecu?tab=repositories"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-github"
+          >
             <i className="fab fa-github"></i> Visit My GitHub
-          </button>
+          </a>
         </div>
       </div>
 
@@ -35,10 +40,15 @@ export default function MyPortfolio() {
                 <h3 className="portfolio--section--title">{item.title}</h3>
                 <p className="text-md">{item.description}</p>
               </div>
-              <p className="text-sm portfolio--link">
+              <a
+                href={item.githubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm portfolio--link"
+              >
                 {item.link}
                 <i className="fas fa-external-link-alt"></i>
-              </p>
+              </a>
             </div>
           </div>
         ))}
