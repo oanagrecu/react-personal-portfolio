@@ -90,6 +90,14 @@
                 "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
                 "link": "View Website",
                 "githubUrl":"https://www.accesarefondurieuropene.ro/"
+              },
+              {
+                "id": "9",
+                "src": "./img/coktailFinder.png",
+                "title": "Coktail finder",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+                "link": "View Website",
+                "githubUrl":"https://cocktail-finder-og.netlify.app/"
               }
       ]
 }
