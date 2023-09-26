@@ -1,4 +1,6 @@
 import { Link } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 import React from "react";
 import "@fortawesome/fontawesome-free/css/all.css";
 function Footer() {
@@ -6,38 +8,28 @@ function Footer() {
     <footer className="footer--container">
       <div className="footer--link--container">
         <div>
-          <img src="./img/logo.png" alt="oana`s logo" />
+          <ScrollLink to="heroSection" className="logo-link">
+            <img src="./img/logo.png" alt="oana`s logo" />
+          </ScrollLink>
         </div>
         <div className="footer--items">
           <ul>
             <li>
-              <Link
+              <ScrollLink
                 activeClass="navbar--active-content"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="heroSection"
+                to="MySkills"
                 className="text-md"
               >
-                Home
-              </Link>
+                Services
+              </ScrollLink>
             </li>
+
             <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="MyPortfolio"
-                className="text-md"
-              >
-                Portfolio
-              </Link>
-            </li>
-            <li>
-              <Link
+              <ScrollLink
                 activeClass="navbar--active-content"
                 spy={true}
                 smooth={true}
@@ -47,10 +39,23 @@ function Footer() {
                 className="text-md"
               >
                 About Me
-              </Link>
+              </ScrollLink>
             </li>
             <li>
-              <Link
+              <ScrollLink
+                activeClass="navbar--active-content"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                to="MyPortfolio"
+                className="text-md"
+              >
+                Portfolio
+              </ScrollLink>
+            </li>
+            <li>
+              <ScrollLink
                 activeClass="navbar--active-content"
                 spy={true}
                 smooth={true}
@@ -59,21 +64,21 @@ function Footer() {
                 to="Contact"
                 className="text-md"
               >
-                Contact
-              </Link>
+                Contact Me
+              </ScrollLink>
             </li>
             <li>
-              <Link
+              <RouterLink
                 activeClass="navbar--active-content"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="Resume"
+                to="/Resume"
                 className="text-md"
               >
                 Resume
-              </Link>
+              </RouterLink>
             </li>
           </ul>
         </div>

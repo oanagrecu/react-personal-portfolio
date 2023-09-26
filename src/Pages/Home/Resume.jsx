@@ -1,49 +1,41 @@
-// import React, { useState, useEffect } from "react";
-// //import { Container, Row } from "react-bootstrap";
-// // import Button from "react-bootstrap/Button";
-// // import Particle from "../Particle";
-// // import pdf from "../../Assets/Resume_Michael_Beebower.pdf";
-// // import { AiOutlineDownload } from "react-icons/ai";
-// // import { Document, Page, pdfjs } from "react-pdf";
-// // import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-// // pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+import React from "react";
+import { Document, Page, pdfjs } from "react-pdf";
+import pdfFile from "./Resume.pdf";
+import Footer from "./Footer";
+pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-// // const resumeLink =
-// //   "https://raw.githubusercontent.com/beebus/portfolio/master/src/Assets/Resume_Michael_Beebower.pdf";
+const Resume = () => {
+  const onDownloadClick = () => {
+    const link = document.createElement("a");
+    link.href = pdfFile;
+    link.download = "Resume.pdf";
+    link.target = "_blank";
+    link.click();
+  };
 
-// function Resume() {
-//   const [width, setWidth] = useState(1200);
+  return (
+    <div>
+      <div className="resume--section">
+        <center>
+          <p className="section--title">
+            Click the button below to download the PDF
+          </p>
+          <button onClick={onDownloadClick} className="btn btn-primary">
+            Download PDF
+          </button>
+        </center>
+        <div>
+          <Document file={pdfFile}>
+            <Page pageNumber={1} />
+          </Document>
+        </div>
+        <button onClick={onDownloadClick} className="btn btn-primary">
+          Download PDF
+        </button>
+      </div>
+      <Footer />
+    </div>
+  );
+};
 
-//   useEffect(() => {
-//     setWidth(window.innerWidth);
-//   }, []);
-
-//   return (
-//     <div>
-//       <Container fluid className="resume-section">
-//         <Particle />
-//         <Row style={{ justifyContent: "center", position: "relative" }}>
-//           <Button variant="primary" href={pdf} target="_blank">
-//             <AiOutlineDownload />
-//             &nbsp;Download CV
-//           </Button>
-//         </Row>
-
-//         <Row className="resume">
-//           <Document file={resumeLink}>
-//             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-//           </Document>
-//         </Row>
-
-//         <Row style={{ justifyContent: "center", position: "relative" }}>
-//           <Button variant="primary" href={pdf} target="_blank">
-//             <AiOutlineDownload />
-//             &nbsp;Download CV
-//           </Button>
-//         </Row>
-//       </Container>
-//     </div>
-//   );
-// }
-
-// export default Resume;
+export default Resume;

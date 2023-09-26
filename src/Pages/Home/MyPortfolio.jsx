@@ -14,7 +14,7 @@ export default function MyPortfolio() {
             href="https://github.com/oanagrecu?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn btn-github"
+            className="btn btn-primary"
           >
             <i className="fab fa-github"></i> Visit My GitHub
           </a>

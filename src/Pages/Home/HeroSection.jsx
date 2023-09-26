@@ -1,3 +1,4 @@
+import { Link as ScrollLink } from "react-scroll";
 export default function HeroSection() {
   return (
     <section id="heroSection" className="hero--section">
@@ -13,7 +14,16 @@ export default function HeroSection() {
             <br /> Dolorum, quas. Amet soluta assumenda cum?
           </p>
         </div>
-        <button className="btn btn-primary">Get In Touch</button>
+        <ScrollLink
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          to="Contact"
+          className="btn btn-primary"
+        >
+          Get In Touch
+        </ScrollLink>
       </div>
       <div className="hero--section--img">
         <img src="./img/cardOana.png" alt="Hero Section" />
