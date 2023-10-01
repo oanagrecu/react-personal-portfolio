@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link as RouterLink } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
 import HeroSection from "./HeroSection";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   const [navActive, setNavActive] = useState(false);
@@ -37,9 +38,9 @@ function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
-        <ScrollLink to="heroSection" className="logo-link">
+        <RouterLink to="/" className="logo-link">
           <img src="./img/logo.png" alt="oana`s logo" />
-        </ScrollLink>
+        </RouterLink>
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
@@ -52,46 +53,43 @@ function Navbar() {
       <div className={`navbar--items ${navActive ? "active" : ""}`}>
         <ul>
           <li>
-            <ScrollLink
+            <RouterLink
               onClick={closeMenu}
               activeClass="navbar--active-content"
-              spy={true}
               smooth={true}
               offset={-70}
               duration={500}
-              to="MySkills"
+              to="/MySkills"
               className="navbar--content"
             >
               Services
-            </ScrollLink>
+            </RouterLink>
           </li>
           <li>
-            <ScrollLink
+            <RouterLink
               onClick={closeMenu}
               activeClass="navbar--active-content"
-              spy={true}
               smooth={true}
               offset={-70}
               duration={500}
-              to="AboutMe"
+              to="/AboutMe"
               className="navbar--content"
             >
               About Me
-            </ScrollLink>
+            </RouterLink>
           </li>
           <li>
-            <ScrollLink
+            <RouterLink
               onClick={closeMenu}
               activeClass="navbar--active-content"
-              spy={true}
               smooth={true}
               offset={-70}
               duration={500}
-              to="MyPortfolio"
+              to="/MyPortfolio"
               className="navbar--content"
             >
               Portfolio
-            </ScrollLink>
+            </RouterLink>
           </li>
 
           <li>
@@ -99,24 +97,24 @@ function Navbar() {
               onClick={closeMenu}
               to="/resume"
               className="navbar--content"
+              activeClassName="active-link"
             >
               Resume
             </RouterLink>
           </li>
         </ul>
       </div>
-      <ScrollLink
+      <RouterLink
         onClick={closeMenu}
-        activeClass="navbar--active-content"
-        spy={true}
         smooth={true}
+        activeClass="navbar--active-content"
         offset={-70}
         duration={500}
-        to="Contact"
+        to="/Contact"
         className="btn btn-outline-primary"
       >
         Contact Me
-      </ScrollLink>
+      </RouterLink>
     </nav>
   );
 }

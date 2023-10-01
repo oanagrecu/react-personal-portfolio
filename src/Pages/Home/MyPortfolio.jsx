@@ -30,8 +30,7 @@ export default function MyPortfolio() {
                 alt={item.title}
                 style={{
                   width: "100%",
-                  height: "200px",
-                  objectFit: "cover",
+                  height: "190px",
                 }}
               />
             </div>
