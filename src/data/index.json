@@ -31,7 +31,7 @@
           "id": "1",
           "src": "./img/weather-app.png",
           "title": "Weather App",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+          "description": "This project is a weather application that allows users to search for current weather data for any city, providing information for the current day, the next five days, and an extended 30-day forecast.",
           "link": "View the Website",
           "githubUrl":"https://oanagrecu.github.io/weatherApp/"
         },
@@ -39,7 +39,7 @@
           "id": "2",
           "src": "./img/e-commerce.png ",
           "title": "E-Commerce Website",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+          "description": "An E-commerce application with 4 HTML pages that include JavaScript and CSS elements to implement the functionalities required using Ajax technique and map the response received from the server to JavaScript classes.",
           "link": "View In Github",
           "githubUrl":"https://github.com/oanagrecu/FinalProjectFE"
         },
@@ -47,7 +47,7 @@
           "id": "3",
           "src": "./img/Dark-Kitchen-group Project.png",
           "title": "Dark-Kitchen",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+          "description": "This is a dynamic single-page restaurant menu application. The application is designed for a Dark Kitchen online delivery service and includes a list of dishes that users can order online.",
           "link": "View the Website",
           "githubUrl":"https://fergalicious.netlify.app/"
         },
@@ -55,7 +55,7 @@
             "id": "4",
             "src": "./img/full-Stack-Ash-Mademoiselle.png",
             "title": "Ash-Mademoiselle",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+            "description": "Ash-Mademoiselle is a user-friendly full-stack MERN application destined to help you explore and purchase handcrafted, custom-made leather clothing. ",
             "link": "View the Website",
             "githubUrl":"https://main--snazzy-sunburst-2dec79.netlify.app/"
           },
@@ -63,7 +63,7 @@
             "id": "5",
             "src": "./img/shoppingList.png",
             "title": "Shopping List",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+            "description": "An HTML page that includes JavaScript and CSS elements to implement the functionalities required for a shopping list application.",
             "link": "View In Github",
             "githubUrl":"https://github.com/oanagrecu/FrontEndProject/tree/master/Homework9"
           },
@@ -71,7 +71,7 @@
               "id": "6",
               "src": "./img/bookList.png",
               "title": "Book List",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+              "description": "A Book List app is created to manage and display a collection of books. Each book is represented as an object with properties like title, author, and ISBN code. You can add, remove, and display books dynamically in the user interface.",
               "link": "View In Github",
               "githubUrl":"https://github.com/oanagrecu/FrontEndProject/tree/master/Homework10"
             },
@@ -87,7 +87,7 @@
                 "id": "8",
                 "src": "./img/accesareF.png",
                 "title": "Accesare Fonduri Europene",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+                "description": "A basical website created using WordPress, a Comming-soon page it is displayed.",
                 "link": "View Website",
                 "githubUrl":"https://www.accesarefondurieuropene.ro/"
               },
@@ -111,7 +111,7 @@
                 "id": "11",
                 "src": "./img/socialiZE.png",
                 "title": "MongoDB project",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+                "description": "A social media application where you can identify entities such as users, user login and sign-up, posts and comments. I defined a schema for each entity using MongoDB's document format.",
                 "link": "View In Github",
                 "githubUrl":"https://github.com/oanagrecu/mongodbProj"
               },
