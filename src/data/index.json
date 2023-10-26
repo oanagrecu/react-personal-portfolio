@@ -3,26 +3,26 @@
         {
             "id": "1",
             "src": "./img/product-chain-1.png",
-            "title": "Front-End",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+            "title": "Front-End", 
+            "description": "Knowlodge in JavaScript | HTML | CSS | Node | React | GitHub | Git | Bootstrap | WordPress"
           },
           {
             "id": "2",
             "src": "./img/tag-1.png",
             "title": "Back-End",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+            "description": "Knowlodge in Node.js | MongoDB | Express.js | MariaDB | MySQL | APIs "
           },
           {
             "id": "3",
             "src": "./img/feather-pen-2.png",
             "title": "UI & UX Design",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+            "description": "Focus on designing and improving user interfaces to enhance the overall user experience of digital products."
           },
           {
             "id": "4",
             "src": "./img/feather-pen-1.png",
             "title": "Full-Stack",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+            "description": "I learn and apply coding skills to create and maintain web applications, working on both front-end and back-end development."
           }
     ],
 

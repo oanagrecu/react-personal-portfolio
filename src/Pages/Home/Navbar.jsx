@@ -59,10 +59,10 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="/MySkills"
+              to="/AboutMe"
               className="navbar--content"
             >
-              Services
+              About Me
             </RouterLink>
           </li>
           <li>
@@ -72,10 +72,10 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="/AboutMe"
+              to="/MySkills"
               className="navbar--content"
             >
-              About Me
+              Services
             </RouterLink>
           </li>
           <li>

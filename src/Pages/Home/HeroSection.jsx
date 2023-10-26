@@ -6,13 +6,18 @@ export default function HeroSection() {
       <div className="hero--section--content--box">
         <div className="hero--section--content">
           <p className="section--title">Hey, I'm Oana</p>
-          <h1 className="hero--section--title">
+          <h2 className="hero--section--title">
             <span className="hero--section-title--color">Front-End</span> <br />
             Developer
-          </h1>
+          </h2>
           <p className="hero--section-description">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            <br /> Dolorum, quas. Amet soluta assumenda cum?
+            I am a responsible and organized person with a strong business
+            orientation. After a fulfilling teaching career, I've successfully
+            transitioned to front-end web development. Proficient in HTML5, CSS,
+            JavaScript, Bootstrap, React, JSON, GitHub, NoSQL, MariaDB, Node.js,
+            Express.js and more.
+            <br />I am eager to embark on a successful journey as a Front-end
+            Web Developer, soon to be Full-stack.
           </p>
         </div>
         <RouterLink

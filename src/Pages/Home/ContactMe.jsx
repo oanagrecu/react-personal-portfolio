@@ -66,7 +66,14 @@ export default function ContactMe() {
           <span className="text-sm">I accept the terms</span>
         </label>
         <div>
-          <button className="btn btn-primary contact--form--btn">Submit</button>
+          {/* <button className="btn btn-primary contact--form--btn">Submit</button>
+          <a href="mailto:youremail@example.com">Contact Me</a> */}
+          <a
+            href="mailto:oana.alexandra.grecu@gmail.com"
+            className="btn btn-primary contact--form--btn"
+          >
+            Submit
+          </a>
         </div>
       </form>
     </section>

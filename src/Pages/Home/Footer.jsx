@@ -21,23 +21,22 @@ function Footer() {
                 smooth="true"
                 offset={-70}
                 duration={500}
-                to="MySkills"
+                to="AboutMe"
                 className="text-md"
               >
-                Services
+                About Me
               </RouterLink>
             </li>
-
             <li>
               <RouterLink
                 activeClass="navbar--active-content"
                 smooth="true"
                 offset={-70}
                 duration={500}
-                to="AboutMe"
+                to="MySkills"
                 className="text-md"
               >
-                About Me
+                Services
               </RouterLink>
             </li>
             <li>
