@@ -9,7 +9,7 @@ function Footer() {
     <footer className="footer--container">
       <div className="footer--link--container">
         <div>
-          <RouterLink to="heroSection" className="logo-link">
+          <RouterLink to="/" className="logo-link">
             <img src="./img/logo.png" alt="oana`s logo" />
           </RouterLink>
         </div>

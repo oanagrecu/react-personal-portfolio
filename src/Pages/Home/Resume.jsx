@@ -43,7 +43,7 @@ const Resume = () => {
             &nbsp;Download CV
           </button>
         </center>
-        <div>
+        <div className="pdf-container">
           <Document file={pdf} renderMode="canvas">
             <Page pageNumber={1} onLoadSuccess={onDocumentLoadSuccess} />
           </Document>

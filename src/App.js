@@ -30,5 +30,5 @@ function App() {
     </div>
   );
 }
-
+// console.log(("100" + "1") - 1 == 100);
 export default App;
