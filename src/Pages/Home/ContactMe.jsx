@@ -1,14 +1,42 @@
-export default function ContactMe() {
+import React, { useRef } from "react";
+import emailjs from "emailjs-com";
+
+export const ContactUs = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "portfolioContact",
+        "portfolioContact2023",
+        form.current,
+        "l-OgimsVf1STFAXgD"
+      )
+      .then(
+        () => {
+          alert("Message successfully sent!");
+          window.location.reload(false);
+        },
+        () => {
+          alert("Failed to send the message, please try again");
+        }
+      );
+  };
+
   return (
     <section id="Contact" className="contact--section">
       <div>
         {/* <p className="sub--title">Get In Touch</p> */}
         <h2>Contact Me</h2>
-        <p className="text-lg">
-        Lets keep in touch
-        </p>
+        <p className="text-lg">Lets keep in touch</p>
       </div>
-      <form className="contact--form--container">
+      <form
+        ref={form}
+        onSubmit={sendEmail}
+        className="contact--form--container"
+      >
         <div className="contactContainer">
           <label htmlFor="first-name" className="contact--label">
             <span className="text-md">First Name</span>
@@ -35,7 +63,7 @@ export default function ContactMe() {
             <input
               type="email"
               className="contact--input text-md"
-              name="email"
+              name="user-email"
               id="email"
               required
             />
@@ -51,10 +79,10 @@ export default function ContactMe() {
             />
           </label>
         </div>
-
         <label htmlFor="message" className="contact--label">
           <span className="text-md">Message</span>
           <textarea
+            name="message"
             className="contact--input text-md"
             id="message"
             rows="8"
@@ -66,16 +94,15 @@ export default function ContactMe() {
           <span className="text-sm">I accept the terms</span>
         </label>
         <div>
-          {/* <button className="btn btn-primary contact--form--btn">Submit</button>
-          <a href="mailto:youremail@example.com">Contact Me</a> */}
-          <a
-            href="mailto:oana.alexandra.grecu@gmail.com"
+          <input
+            type="submit"
             className="btn btn-primary contact--form--btn"
-          >
-            Submit
-          </a>
+            value="SEND"
+          />
         </div>
       </form>
     </section>
   );
-}
+};
+
+export default ContactUs;
