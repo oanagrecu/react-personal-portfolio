@@ -36,7 +36,7 @@ function Footer() {
                 to="MySkills"
                 className="text-md"
               >
-                Services
+                Skills
               </RouterLink>
             </li>
             <li>

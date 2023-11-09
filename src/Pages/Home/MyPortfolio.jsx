@@ -35,19 +35,21 @@ export default function MyPortfolio() {
               />
             </div>
             <div className="portfolio--section--card--content">
-              <div className ="portfolio-description">
+              <div className="portfolio-description">
                 <h3 className="portfolio--section--title">{item.title}</h3>
                 <p className="text-md">{item.description}</p>
               </div>
-              <a
-                href={item.githubUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm portfolio--link"
-              >
-                {item.link}
-                <i className="fas fa-external-link-alt"></i>
-              </a>
+              <div className="portfolio-description1">
+                <a
+                  href={item.githubUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm portfolio--link"
+                >
+                  {item.link}
+                  <i className="fas fa-external-link-alt"></i>
+                </a>
+              </div>
             </div>
           </div>
         ))}

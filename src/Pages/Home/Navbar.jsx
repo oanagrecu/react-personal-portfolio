@@ -75,7 +75,7 @@ function Navbar() {
               to="/MySkills"
               className="navbar--content"
             >
-              Services
+              Skills
             </RouterLink>
           </li>
           <li>
