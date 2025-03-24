@@ -18,7 +18,7 @@ is hosted on Netlify for easy access and deployment.
 
 Click the image below to view the website live:
 
-![Oana's Website Screenshot](./img/oanaWebsite.png)
+![Oana's Website Screenshot](./public/img/oanaWebsite.png)
 
 ---
 
