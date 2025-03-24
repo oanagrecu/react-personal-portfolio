@@ -1,128 +1,143 @@
 {
-    "skills": [
-        {
-            "id": "1",
-            "src": "./img/product-chain-1.png",
-            "title": "Front-End", 
-            "description": "Knowlodge in JavaScript | HTML | CSS | Node | React | GitHub | Git | Bootstrap | WordPress"
-          },
-          {
-            "id": "2",
-            "src": "./img/tag-1.png",
-            "title": "Back-End",
-            "description": "Knowlodge in Node.js | MongoDB | Express.js | MariaDB | MySQL | APIs "
-          },
-          {
-            "id": "3",
-            "src": "./img/feather-pen-2.png",
-            "title": "UI & UX Design",
-            "description": "Focus on designing and improving user interfaces to enhance the overall user experience of digital products."
-          },
-          {
-            "id": "4",
-            "src": "./img/feather-pen-1.png",
-            "title": "Full-Stack",
-            "description": "I learn and apply coding skills to create and maintain web applications, working on both front-end and back-end development."
-          }
-    ],
+	"skills": [
+		{
+			"id": "1",
+			"src": "./img/product-chain-1.png",
+			"title": "Front-End",
+			"description": "Knowlodge in JavaScript | ES6 | HTML5 | CSS3 | Node | React | GitHub | Git | Bootstrap | WordPress | Angular | jQuery | Sass | Figma | Responsive Design | RESTful APIs | JSON | npm "
+		},
+		{
+			"id": "2",
+			"src": "./img/tag-1.png",
+			"title": "Back-End",
+			"description": "Knowlodge in Node.js | MongoDB | Express.js | MariaDB | MySQL | APIs | RESTful APIs | Postman | Mongoose | Nodemailer | Socket.io | Netlify | Render | MongoDB Atlas | Stripe | PHP |Python"
+		},
+		{
+			"id": "3",
+			"src": "./img/feather-pen-2.png",
+			"title": "UI & UX Design",
+			"description": "Focus on designing and improving user interfaces to enhance the overall user experience of digital products."
+		},
+		{
+			"id": "4",
+			"src": "./img/feather-pen-1.png",
+			"title": "Full-Stack",
+			"description": "I learn and apply coding skills to create and maintain web applications, working on both front-end and back-end development."
+		}
+	],
 
-    "portfolio": [
-        {
-          "id": "1",
-          "src": "./img/weather-app.png",
-          "title": "Weather App",
-          "description": "A weather application that allows users to search for current weather data for any city, providing information for the current day, the next five days, and an extended 30-day forecast.",
-          "link": "View the Website",
-          "githubUrl":"https://oanagrecu.github.io/weatherApp/"
-        },
-        {
-          "id": "2",
-          "src": "./img/e-commerce.png ",
-          "title": "E-Commerce Website",
-          "description": "An E-commerce application that include JavaScript and CSS elements to implement the functionalities required using Ajax technique and map the response received from the server to JavaScript classes.",
-          "link": "View In Github",
-          "githubUrl":"https://github.com/oanagrecu/FinalProjectFE"
-        },
-        {
-          "id": "3",
-          "src": "./img/Dark-Kitchen-group Project.png",
-          "title": "Dark-Kitchen",
-          "description": "A dynamic, responsive, single-page restaurant menu application. The application is designed for a Dark Kitchen online delivery service and includes a list of dishes that users can order online.",
-          "link": "View the Website",
-          "githubUrl":"https://fergalicious.netlify.app/"
-        },
-        {
-            "id": "4",
-            "src": "./img/full-Stack-Ash-Mademoiselle.png",
-            "title": "Ash-Mademoiselle",
-            "description": "Ash-Mademoiselle is a collaborative exercise, user-friendly full-stack MERN application destined to help you explore and purchase handcrafted, custom-made leather clothing. ",
-            "link": "View the Website",
-            "githubUrl":"https://main--snazzy-sunburst-2dec79.netlify.app/"
-          },
-          {
-            "id": "5",
-            "src": "./img/shoppingList.png",
-            "title": "Shopping List",
-            "description": "An HTML page that includes JavaScript and CSS elements to implement the functionalities required for a shopping list application.",
-            "link": "View In Github",
-            "githubUrl":"https://github.com/oanagrecu/FrontEndProject/tree/master/Homework9"
-          },
-          {
-              "id": "6",
-              "src": "./img/bookList.png",
-              "title": "Book List",
-              "description": "A Book List app is created to manage and display a collection of books. Each book is represented as an object with properties like title, author, and ISBN code. You can add, remove, and display books dynamically in the user interface.",
-              "link": "View In Github",
-              "githubUrl":"https://github.com/oanagrecu/FrontEndProject/tree/master/Homework10"
-            },
-            {
-              "id": "7",
-              "src": "./img/beforeSunset.png",
-              "title": "Before Sunset-GuestHouse",
-              "description": "A  small-scale, three-pages website for a GuestHouse and offers a visually appealing design with navigation and styling elements.",
-              "link": "View the Website",
-              "githubUrl":"https://oanagrecu.github.io/BeforeSunset-GuestHouse/"
-            },
-            {
-                "id": "8",
-                "src": "./img/accesareF.png",
-                "title": "Accesare Fonduri Europene",
-                "description": "A personal project made using the functionality 'Comming soon mode' of WordPress and the main page will be soon made active.",
-                "link": "View Website",
-                "githubUrl":"https://www.accesarefondurieuropene.ro/"
-              },
-              {
-                "id": "9",
-                "src": "./img/coktailFinder.png",
-                "title": "Coktail finder",
-                "description": "A collection of objects and a card for each object with javascript and populate the card with the properties from the same object, also responsive.",
-                "link": "View Website",
-                "githubUrl":"https://cocktail-finder-og.netlify.app/"
-              },
-              {
-                "id": "10",
-                "src": "./img/oanaWebsite.png",
-                "title": "Oana`s Portfolio",
-                "description":"A single-page React application designed to serve as a personal portfolio website, providing a dynamic and interactive user experience.",
-                "link": "View Website",
-                "githubUrl":"https://oanawebsite.netlify.app/"
-              },
-              {
-                "id": "11",
-                "src": "./img/socialiZE.png",
-                "title": "MongoDB project",
-                "description": "A social media application where you can identify entities such as users, user login and sign-up, posts and comments. I defined a schema for each entity using MongoDB's document format.",
-                "link": "View In Github",
-                "githubUrl":"https://github.com/oanagrecu/mongodbProj"
-              },
-              {
-                "id": "12",
-                "src": "./img/pixelperfect.png",
-                "title": "Collaborative Front-End Exercise",
-                "description": "A collaborative Front-End exercise where we reproduced a responsive page based on a model made by a webdesigner.",
-                "link": "View In Github",
-                "githubUrl":"https://github.com/oanagrecu/wireframe-04"
-              }
-              
-      ]
+	"portfolio": [
+		{
+			"id": "1",
+			"src": "./img/oanaWebsite.png",
+			"title": "Oana`s Portfolio",
+			"description": "A single-page React application designed to serve as a personal portfolio website, providing a dynamic and interactive user experience.",
+			"link": "View Website",
+			"githubUrl": "https://oanawebsite.netlify.app/"
+		},
+		{
+			"id": "2",
+			"src": "./img/akwanza.png",
+			"title": "Angular and Typescript project ",
+			"description": "Akwanza is a fashion brand that combines eco-friendly, minimalist designs with a commitment to wildlife conservation.The website is built using modern web technologies such as React, HTML5, CSS3, and JavaScript.",
+			"link": "View Website",
+			"githubUrl": "https://www.akwanza.com/"
+		},
+		{
+			"id": "3",
+			"src": "./img/creditProExpert.png",
+			"title": "Angular and Typescript project",
+			"description": "An Angular-based web application for managing customer requests. Built with Angular, TypeScript, and SCSS",
+			"link": "View Website",
+			"githubUrl": "https://www.creditproexpert.ro/"
+		},
+		{
+			"id": "4",
+			"src": "./img/beforeSunset.png",
+			"title": "Before Sunset-GuestHouse",
+			"description": "A small-scale, three-pages website for a GuestHouse and offers a visually appealing design with navigation and styling elements.",
+			"link": "View the Website",
+			"githubUrl": "https://oanagrecu.github.io/BeforeSunset-GuestHouse/"
+		},
+		{
+			"id": "5",
+			"src": "./img/Dark-Kitchen-group Project.png",
+			"title": "Dark-Kitchen",
+			"description": "A dynamic, responsive, single-page restaurant menu application. The application is designed for a Dark Kitchen online delivery service and includes a list of dishes that users can order online.",
+			"link": "View the Website",
+			"githubUrl": "https://fergalicious.netlify.app/"
+		},
+		{
+			"id": "6",
+			"src": "./img/weather-app.png",
+			"title": "Weather App",
+			"description": "A weather application that allows users to search for current weather data for any city, providing information for the current day, the next five days, and an extended 30-day forecast.",
+			"link": "View the Website",
+			"githubUrl": "https://oanagrecu.github.io/weatherApp/"
+		},
+		{
+			"id": "7",
+			"src": "./img/coktailFinder.png",
+			"title": "Coktail finder",
+			"description": "A collection of objects and a card for each object with javascript and populate the card with the properties from the same object, also responsive.",
+			"link": "View Website",
+			"githubUrl": "https://cocktail-finder-og.netlify.app/"
+		},
+		{
+			"id": "8",
+			"src": "./img/e-commerce.png ",
+			"title": "E-Commerce Website",
+			"description": "An E-commerce application that include JavaScript and CSS elements to implement the functionalities required using Ajax technique and map the response received from the server to JavaScript classes.",
+			"link": "View In Github",
+			"githubUrl": "https://github.com/oanagrecu/FinalProjectFE"
+		},
+		{
+			"id": "9",
+			"src": "./img/bookList.png",
+			"title": "Book List",
+			"description": "A Book List app is created to manage and display a collection of books. Each book is represented as an object with properties like title, author, and ISBN code. You can add, remove, and display books dynamically in the user interface.",
+			"link": "View In Github",
+			"githubUrl": "https://github.com/oanagrecu/FrontEndProject/tree/master/Homework10"
+		},
+		{
+			"id": "14",
+			"src": "./img/accesareF.png",
+			"title": "Accesare Fonduri Europene",
+			"description": "A personal project made using the functionality 'Coming soon mode' of WordPress and the main page will be soon made active.",
+			"link": "View Website",
+			"githubUrl": "https://www.accesarefondurieuropene.ro/"
+		},
+		{
+			"id": "11",
+			"src": "./img/shoppingList.png",
+			"title": "Shopping List",
+			"description": "An HTML page that includes JavaScript and CSS elements to implement the functionalities required for a shopping list application.",
+			"link": "View In Github",
+			"githubUrl": "https://github.com/oanagrecu/FrontEndProject/tree/master/Homework9"
+		},
+		{
+			"id": "13",
+			"src": "./img/full-Stack-Ash-Mademoiselle.png",
+			"title": "Ash-Mademoiselle",
+			"description": "Ash-Mademoiselle is a collaborative exercise, user-friendly full-stack MERN application destined to help you explore and purchase handcrafted, custom-made leather clothing.",
+			"link": "View the Website",
+			"githubUrl": "https://main--snazzy-sunburst-2dec79.netlify.app/"
+		},
+		{
+			"id": "10",
+			"src": "./img/socialiZE.png",
+			"title": "MongoDB project",
+			"description": "A social media application where you can identify entities such as users, user login and sign-up, posts and comments. I defined a schema for each entity using MongoDB's document format.",
+			"link": "View In Github",
+			"githubUrl": "https://github.com/oanagrecu/mongodbProj"
+		},
+		{
+			"id": "12",
+			"src": "./img/pixelperfect.png",
+			"title": "Collaborative Front-End Exercise",
+			"description": "A collaborative Front-End exercise where we reproduced a responsive page based on a model made by a web designer.",
+			"link": "View In Github",
+			"githubUrl": "https://github.com/oanagrecu/wireframe-04"
+		}
+	]
 }
