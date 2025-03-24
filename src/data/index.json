@@ -100,12 +100,12 @@
 			"githubUrl": "https://github.com/oanagrecu/FrontEndProject/tree/master/Homework10"
 		},
 		{
-			"id": "14",
-			"src": "./img/accesareF.png",
-			"title": "Accesare Fonduri Europene",
-			"description": "A personal project made using the functionality 'Coming soon mode' of WordPress and the main page will be soon made active.",
-			"link": "View Website",
-			"githubUrl": "https://www.accesarefondurieuropene.ro/"
+			"id": "10",
+			"src": "./img/socialiZE.png",
+			"title": "MongoDB project",
+			"description": "A social media application where you can identify entities such as users, user login and sign-up, posts and comments. I defined a schema for each entity using MongoDB's document format.",
+			"link": "View In Github",
+			"githubUrl": "https://github.com/oanagrecu/mongodbProj"
 		},
 		{
 			"id": "11",
@@ -116,6 +116,14 @@
 			"githubUrl": "https://github.com/oanagrecu/FrontEndProject/tree/master/Homework9"
 		},
 		{
+			"id": "12",
+			"src": "./img/pixelperfect.png",
+			"title": "Collaborative Front-End Exercise",
+			"description": "A collaborative Front-End exercise where we reproduced a responsive page based on a model made by a web designer.",
+			"link": "View In Github",
+			"githubUrl": "https://github.com/oanagrecu/wireframe-04"
+		},
+		{
 			"id": "13",
 			"src": "./img/full-Stack-Ash-Mademoiselle.png",
 			"title": "Ash-Mademoiselle",
@@ -124,20 +132,12 @@
 			"githubUrl": "https://main--snazzy-sunburst-2dec79.netlify.app/"
 		},
 		{
-			"id": "10",
-			"src": "./img/socialiZE.png",
-			"title": "MongoDB project",
-			"description": "A social media application where you can identify entities such as users, user login and sign-up, posts and comments. I defined a schema for each entity using MongoDB's document format.",
-			"link": "View In Github",
-			"githubUrl": "https://github.com/oanagrecu/mongodbProj"
-		},
-		{
-			"id": "12",
-			"src": "./img/pixelperfect.png",
-			"title": "Collaborative Front-End Exercise",
-			"description": "A collaborative Front-End exercise where we reproduced a responsive page based on a model made by a web designer.",
-			"link": "View In Github",
-			"githubUrl": "https://github.com/oanagrecu/wireframe-04"
+			"id": "14",
+			"src": "./img/accesareF.png",
+			"title": "Accesare Fonduri Europene",
+			"description": "A personal project made using the functionality 'Coming soon mode' of WordPress and the main page will be soon made active.",
+			"link": "View Website",
+			"githubUrl": "https://www.accesarefondurieuropene.ro/"
 		}
 	]
 }

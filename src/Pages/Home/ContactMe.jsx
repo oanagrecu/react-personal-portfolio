@@ -1,23 +1,43 @@
-import React, {useRef, useEffect} from "react";
+import React, {useRef, useState, useEffect} from "react";
 import emailjs from "@emailjs/browser";
+
 const ContactMe = () => {
 	const form = useRef();
+	const [messageSent, setMessageSent] = useState(""); // State to store the message
+	const [messageType, setMessageType] = useState(""); // State to store message type (success or error)
+
 	useEffect(() => {
-		emailjs.init("oLw9x7hYw639pF01B");
+		const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
+		if (publicKey) {
+			emailjs.init(publicKey);
+		} else {
+			console.error("Missing public key.");
+		}
 	}, []);
+
 	const sendEmail = (e) => {
 		e.preventDefault();
-		emailjs.sendForm("portfolioContact", "portfolioContact2023", form.current).then(
-			(result) => {
-				console.log(result.text);
-				alert("Message successfully sent!");
-				form.current.reset();
-			},
-			(error) => {
-				console.log(error.text);
-				alert("Failed to send the message, please try again");
-			}
-		);
+
+		const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+		const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+
+		if (serviceId && templateId) {
+			emailjs.sendForm(serviceId, templateId, form.current).then(
+				(result) => {
+					console.log(result.text);
+					setMessageSent("The message was successfully sent!");
+					setMessageType("success"); // Set message type to success
+					form.current.reset(); // Reset form
+				},
+				(error) => {
+					console.error("Failed to send email:", error.text);
+					setMessageSent("Failed to send the message, please try again.");
+					setMessageType("error"); // Set message type to error
+				}
+			);
+		} else {
+			console.error("Missing service or template ID.");
+		}
 	};
 
 	return (
@@ -26,6 +46,14 @@ const ContactMe = () => {
 				<h2>Contact Me</h2>
 				<p className="text-lg">Let's keep in touch</p>
 			</div>
+
+			{/* Display success or error message at the top of the form */}
+			{messageSent && (
+				<div className={`message-feedback ${messageType === "success" ? "success" : "error"}`}>
+					<p>{messageSent}</p>
+				</div>
+			)}
+
 			<form ref={form} onSubmit={sendEmail} id="myForm" className="contact--form--container">
 				<div className="contactContainer">
 					<label htmlFor="first-name" className="contact--label">
