@@ -1,122 +1,76 @@
-import { useState, useEffect } from "react";
-import { Link as RouterLink } from "react-router-dom";
-import { Link as ScrollLink } from "react-scroll";
-import HeroSection from "./HeroSection";
-import { NavLink } from "react-router-dom";
+import {useState, useEffect} from "react";
+import {Link as RouterLink, NavLink} from "react-router-dom";
 
 function Navbar() {
-  const [navActive, setNavActive] = useState(false);
+	const [navActive, setNavActive] = useState(false);
 
-  const toggleNav = () => {
-    setNavActive(!navActive);
-  };
+	const toggleNav = () => setNavActive(!navActive);
+	const closeMenu = () => setNavActive(false);
 
-  const closeMenu = () => {
-    setNavActive(false);
-  };
+	useEffect(() => {
+		const handleResize = () => {
+			if (window.innerWidth <= 500) {
+				closeMenu();
+			}
+		};
 
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth <= 500) {
-        closeMenu();
-      }
-    };
+		window.addEventListener("resize", handleResize);
+		return () => window.removeEventListener("resize", handleResize);
+	}, []);
 
-    window.addEventListener("resize", handleResize);
+	useEffect(() => {
+		if (window.innerWidth <= 1200) {
+			closeMenu();
+		}
+	}, []);
 
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
+	return (
+		<nav className={`navbar ${navActive ? "active" : ""}`}>
+			<div>
+				<RouterLink to="/" className="logo-link">
+					<img src="./img/logo.png" alt="oana`s logo" />
+				</RouterLink>
+			</div>
 
-  useEffect(() => {
-    if (window.innerWidth <= 1200) {
-      closeMenu();
-    }
-  }, []);
+			<button className={`nav__hamburger ${navActive ? "active" : ""}`} onClick={toggleNav}>
+				<span className="nav__hamburger__line"></span>
+				<span className="nav__hamburger__line"></span>
+				<span className="nav__hamburger__line"></span>
+			</button>
 
-  return (
-    <nav className={`navbar ${navActive ? "active" : ""}`}>
-      <div>
-        <RouterLink to="/" className="logo-link">
-          <img src="./img/logo.png" alt="oana`s logo" />
-        </RouterLink>
-      </div>
-      <a
-        className={`nav__hamburger ${navActive ? "active" : ""}`}
-        onClick={toggleNav}
-      >
-        <span className="nav__hamburger__line"></span>
-        <span className="nav__hamburger__line"></span>
-        <span className="nav__hamburger__line"></span>
-      </a>
-      <div className={`navbar--items ${navActive ? "active" : ""}`}>
-        <ul>
-          <li>
-            <RouterLink
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="/AboutMe"
-              className="navbar--content"
-            >
-              About Me
-            </RouterLink>
-          </li>
-          <li>
-            <RouterLink
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="/MySkills"
-              className="navbar--content"
-            >
-              Skills
-            </RouterLink>
-          </li>
-          <li>
-            <RouterLink
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="/MyPortfolio"
-              className="navbar--content"
-            >
-              Portfolio
-            </RouterLink>
-          </li>
+			<div className={`navbar--items ${navActive ? "active" : ""}`}>
+				<ul>
+					<li>
+						<NavLink to="/AboutMe" className={({isActive}) => (isActive ? "navbar--content navbar--active-content" : "navbar--content")} onClick={closeMenu}>
+							About Me
+						</NavLink>
+					</li>
 
-          <li>
-            <RouterLink
-              onClick={closeMenu}
-              to="/resume"
-              className="navbar--content"
-              activeClassName="active-link"
-            >
-              Resume
-            </RouterLink>
-          </li>
-        </ul>
-      </div>
-      <RouterLink
-        onClick={closeMenu}
-        smooth={true}
-        activeClass="navbar--active-content"
-        offset={-70}
-        duration={500}
-        to="/Contact"
-        className="btn btn-outline-primary"
-      >
-        Contact Me
-      </RouterLink>
-    </nav>
-  );
+					<li>
+						<NavLink to="/MySkills" className={({isActive}) => (isActive ? "navbar--content navbar--active-content" : "navbar--content")} onClick={closeMenu}>
+							Skills
+						</NavLink>
+					</li>
+
+					<li>
+						<NavLink to="/MyPortfolio" className={({isActive}) => (isActive ? "navbar--content navbar--active-content" : "navbar--content")} onClick={closeMenu}>
+							Portfolio
+						</NavLink>
+					</li>
+
+					<li>
+						<NavLink to="/resume" className={({isActive}) => (isActive ? "navbar--content navbar--active-content" : "navbar--content")} onClick={closeMenu}>
+							Resume
+						</NavLink>
+					</li>
+				</ul>
+			</div>
+
+			<NavLink to="/Contact" className={({isActive}) => (isActive ? "btn btn-outline-primary active" : "btn btn-outline-primary")} onClick={closeMenu}>
+				Contact Me
+			</NavLink>
+		</nav>
+	);
 }
 
 export default Navbar;

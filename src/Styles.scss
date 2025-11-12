@@ -428,23 +428,29 @@ h3 {
 // resume page styling
 .resume--section {
     display: flex;
-    padding: 100px 85px;
+    padding: 50px 85px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 60px;
-    margin-top: 80px;
+    gap: 30px;
+    margin-top: 30px;
 }
 .resume--section button {
     margin-top: 50px;
 }
-.react-pdf__Page__textContent {
-    display: none;
-}
-.react-pdf__Page__annotations {
-    display: none;
-}
+/* Nu ascunde textul PDF-ului */
+// .react-pdf__Page__textContent,
+// .react-pdf__Page__annotations {
+//     display: block !important;
+// }
+
+// .react-pdf__Page__textContent {
+//     display: none;
+// }
+// .react-pdf__Page__annotations {
+//     display: none;
+// }
 // styling contact section
 .contact--section {
     display: flex;

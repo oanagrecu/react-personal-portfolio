@@ -71,9 +71,6 @@ This will open the website on http://localhost:3000 in your browser.
 
 #### Hosting on Netlify
 
-This website is hosted on Netlify for easy and fast deployment. The live site can be found at the
-following URL:
-
 [Visit the Website ](https://oanawebsite.netlify.app/)
 
 Netlify offers automatic deployments, meaning changes made to the GitHub repository will trigger new

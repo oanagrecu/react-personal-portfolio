@@ -3,7 +3,7 @@ import {useLocation} from "react-router-dom";
 
 const AnalyticsTracker = () => {
 	const location = useLocation();
-	const GA_TRACKING_ID = process.env.REACT_APP_GOOGLE_ANALYTICS_ID; // Get from .env
+	const GA_TRACKING_ID = process.env.REACT_APP_GOOGLE_ANALYTICS_ID; 
 
 	useEffect(() => {
 		if (window.gtag && GA_TRACKING_ID) {
