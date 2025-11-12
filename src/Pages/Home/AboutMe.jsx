@@ -26,7 +26,7 @@ export default function AboutMe() {
             people's lives.
           </p>
           <p className="hero--section-description">
-            I am eager to embark on a successful journey as a Front-end Web
+            I am eager to embark on a successful journey as a Web
             Developer, soon to be Full-stack.
           </p>
         </div>

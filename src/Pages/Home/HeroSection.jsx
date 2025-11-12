@@ -16,7 +16,7 @@ export default function HeroSection() {
             transitioned to front-end web development. Proficient in HTML5, CSS,
             JavaScript, Bootstrap, React, JSON, GitHub, NoSQL, MariaDB, Node.js,
             Express.js and more.
-            <br />I am eager to embark on a successful journey as a Front-end
+            <br />I am eager to embark on a successful journey as a
             Web Developer, soon to be Full-stack.
           </p>
         </div>
